@@ -1,0 +1,4 @@
+name: Post Welcome Event
+on:
+  pull_request:
+    types: [opened]
