@@ -2,3 +2,8 @@ name: Post Welcome Event
 on:
   pull_request:
     types: [opened]
+jobs:
+  build:
+    name: Post Welcome comment
+    run-on: ubuntu-latest
+
